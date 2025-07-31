@@ -169,7 +169,7 @@ add_shortcode('bvbb_tabelle', function ($atts) {
 
     $datum = $timestamp ? date_i18n('d.m.Y, H:i \U\h\r', $timestamp) : '';
 	$tz_string = get_option('timezone_string') ?: 'lokale Zeit';
-	$caption = "<caption style='text-align: left; font-size: 1.2em; font-weight: bold;'>$liganame <span style='float:right; font-weight:normal; color:#666;'>Letztes Update: $datum ($tz_string)</span></caption>";
+    $caption = "<caption class='bvbb-caption'>$liganame <span class='bvbb-caption-update'>Letztes Update: $datum</span></caption>";
 
 
     $table_html = preg_replace('/<table([^>]*)>/', '<table$1>' . $caption, $table_html, 1);

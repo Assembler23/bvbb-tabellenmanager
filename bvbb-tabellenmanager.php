@@ -3,7 +3,7 @@
  * Plugin Name: BVBB Tabellenmanager
  * Description: Verwalte Badminton-Ligen inkl. Sortierung, farbiger Markierung und Rückzugsanzeige.
  * Version: 1.6.0
- * Author: Dein Name
+ * Author: Christian Plunze | Assembler23
  * 
  * GitHub Plugin URI: https://github.com/Assembler23/bvbb-tabellenmanager.git
  * GitHub Branch: main
